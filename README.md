@@ -25,8 +25,8 @@ SteadyType is a Python-based program designed to assist individuals with medical
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/GlobalAutocorrect.git
-   cd GlobalAutocorrect
+   git clone https://github.com/mk-8/SteadyType.git
+   cd SteadyType
    ```
 2. Install the required dependencies:
    ```bash
@@ -34,7 +34,7 @@ SteadyType is a Python-based program designed to assist individuals with medical
    ```
 3. Set up your Gemini API key:
    - Obtain an API key for the Google Generative AI Gemini model.
-   - Replace the `api_key` in the `GlobalAutocorrect` class with your API key:
+   - Replace the `api_key` in the `SteadyType` class with your API key:
      ```python
      genai.configure(api_key="YOUR_API_KEY_HERE")
      ```
@@ -43,7 +43,7 @@ SteadyType is a Python-based program designed to assist individuals with medical
 
 1. Run the program:
    ```bash
-   python global_autocorrect.py
+   python main.py
    ```
 2. Start typing anywhere (e.g., in a browser, text editor, etc.). The program will detect pauses in your typing and automatically correct the text.
 3. Press `Ctrl+C` in the terminal to stop the program.
